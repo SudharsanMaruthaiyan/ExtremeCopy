@@ -1,0 +1,2 @@
+export const navlogo = "https://ik.imagekit.io/jjyo3gsee/images/navlogo-removebg-preview.png?updatedAt=1724435155303";
+export const resizeable = "https://ik.imagekit.io/jjyo3gsee/images/resiable.png?updatedAt=1725688160514"
