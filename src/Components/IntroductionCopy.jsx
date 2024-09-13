@@ -46,7 +46,7 @@ const IntroductionCopy = () => {
                 </div>
                 
                 {/* resizable pannels start*/}
-                <div className={` ${open?' block ':'md:hidden hidden'}`}>
+                <div className={` hidden md:block  ${open?' block':'md:hidden hidden'}`}>
                     <PanelGroup autoSaveId="example" direction="horizontal" className={' '}>
                         <Panel defaultSize={30}>
                             <div className={`order-2 md:order-1 ${open?'  ml-[0px] transition-all duration-300 ease-in-out md:col-span-3 col-span-10 ' : 'fixed ml-[-600px] transition duration-300 ease-in-out'}`}>
@@ -154,7 +154,7 @@ const IntroductionCopy = () => {
                 </div>
                 {/* resizable pannels end*/}
                                 
-                <div className={`grid grid-cols-10 ${open?' hidden':' block'}`}>
+                <div className={`grid grid-cols-10   ${open?' block md:hidden':' block'}`}>
                     <div className={`order-2 md:order-1 md:block hidden ${open?' ml-[0px] transition-all duration-300 ease-in-out md:col-span-3 col-span-10 ' : 'fixed ml-[-600px] transition duration-300 ease-in-out'}`}>
                         <div >
                             <div className={` flex justify-between items-center w-full px-5 py-3`}>
